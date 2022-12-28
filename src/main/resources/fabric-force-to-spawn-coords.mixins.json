@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "zgrav.fabricforcetospawncoords.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "TeleportOnLoginMixin",
+    "TeleportOnRespawnMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

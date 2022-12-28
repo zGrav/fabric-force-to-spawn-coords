@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "fabric-force-to-spawn-coords",
+  "version": "${version}",
+  "name": "Fabric Force To Spawn Coords",
+  "description": "",
+  "authors": [
+    "zGrav"
+  ],
+  "contact": {},
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "zgrav.fabricforcetospawncoords.FabricForceToSpawnCoords"
+    ]
+  },
+  "mixins": [
+    "fabric-force-to-spawn-coords.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
